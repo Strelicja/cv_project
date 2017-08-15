@@ -1,0 +1,187 @@
+@import 'media_queries';
+
+$columnNo: 12;
+$gutter: 20px;
+
+
+/* ------ GRID ------ */
+@for $i from 1 through $columnNo {
+	.col-xsm-#{$i} {
+		width: 100/$columnNo * $i + %;
+    border: 1px solid red;
+	}
+}
+@include phone {
+	@for $i from 1 through $columnNo {
+		.col-sm-#{$i} {
+			width: 100/$columnNo * $i + %;
+      border: 1px solid green;
+    }
+  }
+}
+@include tablet {
+	@for $i from 1 through $columnNo {
+		.col-md-#{$i} {
+			width: 100/$columnNo * $i + %;
+      border: 1px solid blue;
+    }
+  }
+}
+@include desktop {
+	@for $i from 1 through $columnNo {
+		.col-lg-#{$i} {
+			width: 100/$columnNo * $i + %;
+      //border: 1px solid yellow;
+    }
+  }
+}
+.row:before,
+.row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+	}
+.collapsed {
+  padding: 0;
+}
+
+// BODY //
+* {
+  box-sizing: border-box;
+	margin: 0 auto;
+}
+body {
+	font-family: 'Open Sans', serif;
+  font-size: 16px;
+	background-color: #ECECEC;
+}
+// HEADER //
+.headerBox {
+  margin-top: 52px;
+  font-size: 24.19px;
+  padding-left: 19px;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+h1 {
+  font-size: 62.48px;
+  margin-bottom: 45px;
+}
+.headerTitle {
+  font-weight: 200;
+  font-size: 42.33px;
+}
+//circle
+.circleBox {
+  margin-top: 72px;
+}
+.circle {
+  width: 213px;
+  height: 213px;
+  background-color: #bebcbb;
+  border-radius: 50%;
+}
+//adress
+.adressBox {
+  text-align: right;
+  margin-top: 78px;
+  p {
+    margin-bottom: 10px;
+  }
+}
+.iconBox {
+  margin-top: 82px;
+  text-align: right;
+  img {
+    margin-bottom: 20px;
+    display: block;
+    height: 23px;
+  }
+}
+
+hr {
+  display: block;
+  width: 91% !important;
+  margin-left: 40px;
+  margin-top: 14px;
+}
+.stageBox {
+  border-radius: 10px;
+  background-color: white;
+  padding: 2%;
+  box-shadow: 1px 1px 2px silver;
+}
+.borderRight {
+  border-right: 2px solid black;
+
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 12px solid white;
+	margin: 32px auto 0;
+}
+.triangleRight {
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right: 12px solid white;
+	margin: 32px auto 0 5%;
+}
+.marginTop {
+  margin-top: 1%;
+}
+.prog {
+height: 8px;
+border: 1px solid #ccc;
+background: #eee;
+border-radius: 5px;
+margin-bottom: 3.5%;
+}
+
+.prog .progBar {
+border-radius: 3px;
+background: #444;
+height: 6px;
+}
+.circlesBox {
+  display: flex;
+}
+.sport {
+  width: 100px;
+  height: 100px;
+  background-color: silver;
+  border-radius: 50%;
+}
+.musique {
+  width: 100px;
+  height: 100px;
+  background-color: silver;
+  border-radius: 50%;
+}
+.webdesign {
+  width: 100px;
+  height: 100px;
+  background-color: silver;
+  border-radius: 50%;
+}
+.cinema {
+  width: 100px;
+  height: 100px;
+  background-color: silver;
+  border-radius: 50%;
+}
+.center {
+  text-align: center;
+}
