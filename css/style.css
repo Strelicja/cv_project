@@ -169,7 +169,10 @@
 body {
   font-family: 'Open Sans', serif;
   font-size: 16px;
-  background-color: #ECECEC; }
+  background-color: #f1efed; }
+
+.container {
+  padding: 10px; }
 
 .headerBox {
   margin-top: 52px;
@@ -184,10 +187,12 @@ body {
 
 h1 {
   font-size: 62.48px;
+  color: #035159;
   margin-bottom: 45px; }
 
 .headerTitle {
   font-weight: 200;
+  color: #035159;
   font-size: 42.33px; }
 
 .circleBox {
@@ -203,7 +208,8 @@ h1 {
   text-align: right;
   margin-top: 78px; }
   .adressBox p {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    color: #a5a4a3; }
 
 .iconBox {
   margin-top: 82px;
@@ -217,7 +223,69 @@ hr {
   display: block;
   width: 91% !important;
   margin-left: 40px;
-  margin-top: 14px; }
+  margin-top: 14px;
+  margin-bottom: 59px; }
+
+.timeLine h2 {
+  display: inline;
+  font-size: 44.34px;
+  color: #035159; }
+
+.formTop {
+  margin-top: 48px; }
+
+.textTop {
+  display: inline;
+  float: left;
+  padding-left: 25px; }
+  .textTop p {
+    text-align: center;
+    padding: 1%;
+    color: #48acac; }
+  .textTop .greenBox {
+    color: white;
+    background-color: #48acac;
+    border-radius: 10px; }
+
+.borderLine {
+  margin: 0;
+  border-top: 7px solid #035159;
+  margin-top: 22px;
+  margin-left: 8%;
+  margin-bottom: 8px;
+  width: 79%; }
+
+.borderLine p {
+  margin: 0;
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border: 4px solid #035159;
+  border-radius: 50%;
+  margin-top: -7%; }
+
+.borderLine .pointTwo {
+  margin-left: 30%; }
+
+.borderLine .pointThree {
+  margin-left: 50%; }
+
+.borderLine .pointFour {
+  float: right; }
+
+.formMiddle {
+  margin-top: 0; }
+  .formMiddle .textPadding {
+    padding-left: 34px; }
+
+.textBottom {
+  padding-left: 0 !important; }
+
+.bottomPadding {
+  padding-left: 20px; }
+
+.bottomPaddingP {
+  padding-left: 27px; }
 
 .stageBox {
   border-radius: 10px;
