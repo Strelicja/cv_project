@@ -226,7 +226,7 @@ hr {
   margin-top: 14px;
   margin-bottom: 59px; }
 
-.timeLine h2 {
+h2 {
   display: inline;
   font-size: 44.34px;
   color: #035159; }
@@ -251,9 +251,9 @@ hr {
   margin: 0;
   border-top: 7px solid #035159;
   margin-top: 22px;
-  margin-left: 8%;
+  margin-left: 3.5%;
   margin-bottom: 8px;
-  width: 79%; }
+  width: 86%; }
 
 .borderLine p {
   margin: 0;
@@ -262,21 +262,23 @@ hr {
   background-color: white;
   border: 4px solid #035159;
   border-radius: 50%;
-  margin-top: -7%; }
+  margin-top: -6%;
+  margin-left: -1%; }
 
 .borderLine .pointTwo {
-  margin-left: 30%; }
+  margin-left: 35%; }
 
 .borderLine .pointThree {
-  margin-left: 50%; }
+  margin-left: 52%; }
 
 .borderLine .pointFour {
-  float: right; }
+  float: right;
+  margin-right: -3%; }
 
 .formMiddle {
   margin-top: 0; }
   .formMiddle .textPadding {
-    padding-left: 34px; }
+    padding-left: 15px; }
 
 .textBottom {
   padding-left: 0 !important; }
@@ -287,72 +289,169 @@ hr {
 .bottomPaddingP {
   padding-left: 27px; }
 
+.experienceBox {
+  margin-top: 8%; }
+
 .stageBox {
   border-radius: 10px;
   background-color: white;
   padding: 2%;
-  box-shadow: 1px 1px 2px silver; }
+  padding-right: 0;
+  padding-top: 28px;
+  padding-bottom: 18px;
+  box-shadow: 1px 1px 2px silver;
+  margin-top: 56px;
+  margin-bottom: 79px; }
+  .stageBox h4 {
+    font-size: 24.19px;
+    font-weight: 200; }
+  .stageBox p {
+    font-size: 19px;
+    font-weight: 200;
+    color: #999794; }
+  .stageBox span:first-child {
+    font-size: 20.16px;
+    font-weight: 200;
+    color: #bababa; }
+  .stageBox span:last-child {
+    font-size: 52.41px;
+    font-weight: 200;
+    color: #035159; }
+
+.stageBorder {
+  border-right: 3px solid #bababa; }
+
+.yearBox {
+  padding-left: 20px; }
+
+.yearText {
+  padding-top: 10%;
+  text-align: center; }
+
+.yearBoxEx {
+  padding-right: 20px; }
+
+.stageBoxMargin {
+  margin-top: 25%; }
 
 .borderRight {
-  border-right: 2px solid black; }
+  border-right: 6px solid #084141; }
 
 .triangle {
   width: 0;
   height: 0;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-left: 12px solid white;
-  margin: 32px auto 0; }
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 35px solid white;
+  margin: 21% auto 0; }
 
 .triangleRight {
   width: 0;
   height: 0;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-  border-right: 12px solid white;
-  margin: 32px auto 0 5%; }
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 35px solid white;
+  margin: 46% auto 0; }
+
+.competencesBox {
+  margin-top: 80px; }
+
+.competencesList {
+  margin-top: 9%;
+  font-size: 24.16px; }
+  .competencesList p {
+    padding-bottom: 7%; }
 
 .marginTop {
-  margin-top: 1%; }
+  margin-top: 10.5%; }
 
 .prog {
-  height: 8px;
+  height: 13px;
   border: 1px solid #ccc;
   background: #eee;
   border-radius: 5px;
-  margin-bottom: 3.5%; }
+  margin-bottom: 8%; }
 
-.prog .progBar {
+.one {
+  background: #027070; }
+
+.two {
+  background: #046060; }
+
+.three {
+  background: #074c4c; }
+
+.four {
+  background: #009898; }
+
+.five {
+  background: #02b4b5; }
+
+.six {
+  background: #008384; }
+
+.progBar {
   border-radius: 3px;
-  background: #444;
-  height: 6px; }
+  height: 11px;
+  margin-left: 0; }
 
 .circlesBox {
   display: flex; }
 
 .sport {
-  width: 100px;
-  height: 100px;
-  background-color: silver;
-  border-radius: 50%; }
+  width: 148px;
+  height: 148px;
+  background-color: #26acac;
+  border-radius: 50%;
+  opacity: 0.8;
+  margin-top: 62px;
+  margin-left: 7%;
+  z-index: 3;
+  position: absolute;
+  color: white;
+  font-size: 32.21px;
+  line-height: 148px; }
 
 .musique {
-  width: 100px;
-  height: 100px;
-  background-color: silver;
-  border-radius: 50%; }
+  width: 170px;
+  height: 170px;
+  background-color: #2bc4c4;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  margin-top: 174px;
+  margin-left: 3%;
+  color: white;
+  font-size: 27.61px;
+  line-height: 170px; }
 
 .webdesign {
-  width: 100px;
-  height: 100px;
-  background-color: silver;
-  border-radius: 50%; }
+  width: 236px;
+  height: 236px;
+  background-color: #268e8e;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.8;
+  margin-top: 97px;
+  margin-left: 15%;
+  color: white;
+  font-size: 36.81px;
+  line-height: 236px; }
 
 .cinema {
-  width: 100px;
-  height: 100px;
-  background-color: silver;
-  border-radius: 50%; }
+  width: 144px;
+  height: 144px;
+  background-color: #2b5d5d;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  opacity: 0.8;
+  margin-top: 241px;
+  margin-left: 30%;
+  color: white;
+  font-size: 29.13px;
+  line-height: 144px; }
 
 .center {
   text-align: center; }
