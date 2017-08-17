@@ -4,51 +4,51 @@ export default StyleSheet.create({
   // ------ GRID ------
   'col-xsm-1': {
     width: [{ unit: '%H', value: 0.0833333 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-2': {
     width: [{ unit: '%H', value: 0.1666667 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-3': {
     width: [{ unit: '%H', value: 0.25 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-4': {
     width: [{ unit: '%H', value: 0.33333329999999994 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-5': {
     width: [{ unit: '%H', value: 0.41666670000000006 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-6': {
     width: [{ unit: '%H', value: 0.5 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-7': {
     width: [{ unit: '%H', value: 0.5833332999999999 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-8': {
     width: [{ unit: '%H', value: 0.6666667 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-9': {
     width: [{ unit: '%H', value: 0.75 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-10': {
     width: [{ unit: '%H', value: 0.8333333 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-11': {
     width: [{ unit: '%H', value: 0.9166667 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'col-xsm-12': {
     width: [{ unit: '%H', value: 1 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'red' }]
+    fontSize: [{ unit: 'px', value: 9 }]
   },
   'row:before': {
     content: '''',
@@ -73,16 +73,18 @@ export default StyleSheet.create({
   },
   body: {
     fontFamily: ''Open Sans', serif',
-    fontSize: [{ unit: 'px', value: 16 }],
+    fontSize: [{ unit: 'px', value: 8 }],
     backgroundColor: '#f1efed'
   },
   container: {
-    padding: [{ unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }]
+    padding: [{ unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }],
+    width: [{ unit: '%H', value: 1 }],
+    maxWidth: [{ unit: 'px', value: 1200 }]
   },
   headerBox: {
-    marginTop: [{ unit: 'px', value: 52 }],
-    fontSize: [{ unit: 'px', value: 24.19 }],
-    paddingLeft: [{ unit: 'px', value: 19 }]
+    marginTop: [{ unit: 'em', value: 3.25 }],
+    fontSize: [{ unit: 'em', value: 1.5 }],
+    paddingLeft: [{ unit: 'em', value: 1.188 }]
   },
   floatLeft: {
     float: 'left'
@@ -90,61 +92,63 @@ export default StyleSheet.create({
   floatRight: {
     float: 'right'
   },
-  h1: {
-    fontSize: [{ unit: 'px', value: 62.48 }],
+  name: {
+    fontSize: [{ unit: 'em', value: 3.905 }],
     color: '#035159',
-    marginBottom: [{ unit: 'px', value: 45 }]
+    marginBottom: [{ unit: 'em', value: 0.5 }],
+    fontWeight: 'bold'
   },
   headerTitle: {
-    fontWeight: '200',
+    fontSize: [{ unit: 'em', value: 2.2 }],
     color: '#035159',
-    fontSize: [{ unit: 'px', value: 42.33 }]
+    fontWeight: 'lighter'
   },
   circleBox: {
-    marginTop: [{ unit: 'px', value: 72 }]
+    marginTop: [{ unit: 'em', value: 4.5 }]
   },
   circle: {
-    width: [{ unit: 'px', value: 213 }],
-    height: [{ unit: 'px', value: 213 }],
+    width: [{ unit: 'em', value: 13.3 }],
+    height: [{ unit: 'em', value: 13.3 }],
     backgroundColor: '#bebcbb',
     borderRadius: '50%'
   },
   adressBox: {
     textAlign: 'right',
-    marginTop: [{ unit: 'px', value: 78 }]
+    marginTop: [{ unit: 'em', value: 4.875 }]
   },
   'adressBox p': {
-    marginBottom: [{ unit: 'px', value: 10 }],
-    color: '#a5a4a3'
+    marginBottom: [{ unit: 'em', value: 0.625 }],
+    color: '#a5a4a3',
+    fontSize: [{ unit: 'em', value: 1.5 }]
   },
   iconBox: {
-    marginTop: [{ unit: 'px', value: 82 }],
+    marginTop: [{ unit: 'em', value: 5.1 }],
     textAlign: 'right'
   },
   'iconBox img': {
-    marginBottom: [{ unit: 'px', value: 20 }],
+    marginBottom: [{ unit: 'em', value: 1.6 }],
     display: 'block',
-    height: [{ unit: 'px', value: 23 }]
+    height: [{ unit: 'em', value: 1.4375 }]
   },
   hr: {
     display: 'block',
     width: [{ unit: '%H', value: 0.91 }, { unit: 'string', value: '!important' }],
-    marginLeft: [{ unit: 'px', value: 40 }],
-    marginTop: [{ unit: 'px', value: 14 }],
-    marginBottom: [{ unit: 'px', value: 59 }]
+    marginLeft: [{ unit: 'em', value: 2.5 }],
+    marginTop: [{ unit: 'em', value: 0.875 }],
+    marginBottom: [{ unit: 'em', value: 3.688 }]
   },
   h2: {
     display: 'inline',
-    fontSize: [{ unit: 'px', value: 44.34 }],
+    fontSize: [{ unit: 'em', value: 2.77125 }],
     color: '#035159'
   },
   formTop: {
-    marginTop: [{ unit: 'px', value: 48 }]
+    marginTop: [{ unit: 'em', value: 3 }]
   },
   textTop: {
     display: 'inline',
     float: 'left',
-    paddingLeft: [{ unit: 'px', value: 25 }]
+    paddingLeft: [{ unit: 'em', value: 1.5625 }]
   },
   'textTop p': {
     textAlign: 'center',
@@ -154,22 +158,25 @@ export default StyleSheet.create({
   'textTop greenBox': {
     color: 'white',
     backgroundColor: '#48acac',
-    borderRadius: '10px'
+    borderRadius: '0.625em'
+  },
+  textLeft: {
+    textAlign: 'left !important'
   },
   borderLine: {
     margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }],
-    borderTop: [{ unit: 'px', value: 7 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#035159' }],
-    marginTop: [{ unit: 'px', value: 22 }],
+    borderTop: [{ unit: 'em', value: 0.4375 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#035159' }],
+    marginTop: [{ unit: 'em', value: 1.375 }],
     marginLeft: [{ unit: '%H', value: 0.035 }],
-    marginBottom: [{ unit: 'px', value: 8 }],
+    marginBottom: [{ unit: 'em', value: 0.5 }],
     width: [{ unit: '%H', value: 0.86 }]
   },
   'borderLine p': {
     margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 0 }],
-    width: [{ unit: 'px', value: 23 }],
-    height: [{ unit: 'px', value: 23 }],
+    width: [{ unit: 'em', value: 1.4375 }],
+    height: [{ unit: 'em', value: 1.4375 }],
     backgroundColor: 'white',
-    border: [{ unit: 'px', value: 4 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#035159' }],
+    border: [{ unit: 'em', value: 0.25 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#035159' }],
     borderRadius: '50%',
     marginTop: [{ unit: '%V', value: -0.06 }],
     marginLeft: [{ unit: '%H', value: -0.01 }]
@@ -188,91 +195,89 @@ export default StyleSheet.create({
     marginTop: [{ unit: 'px', value: 0 }]
   },
   'formMiddle textPadding': {
-    paddingLeft: [{ unit: 'px', value: 15 }]
+    paddingLeft: [{ unit: 'em', value: 0.9375 }]
   },
   textBottom: {
     paddingLeft: [{ unit: 'px', value: 0 }, { unit: 'string', value: '!important' }]
   },
   bottomPadding: {
-    paddingLeft: [{ unit: 'px', value: 20 }]
+    paddingLeft: [{ unit: 'em', value: 1.25 }]
   },
   bottomPaddingP: {
-    paddingLeft: [{ unit: 'px', value: 27 }]
+    paddingLeft: [{ unit: 'em', value: 1.6875 }]
   },
   experienceBox: {
     marginTop: [{ unit: '%V', value: 0.08 }]
   },
   stageBox: {
-    borderRadius: '10px',
+    borderRadius: '0.625em',
     backgroundColor: 'white',
     padding: [{ unit: '%V', value: 0.02 }, { unit: '%H', value: 0.02 }, { unit: '%V', value: 0.02 }, { unit: '%H', value: 0.02 }],
     paddingRight: [{ unit: 'px', value: 0 }],
-    paddingTop: [{ unit: 'px', value: 28 }],
-    paddingBottom: [{ unit: 'px', value: 18 }],
-    boxShadow: [{ unit: 'px', value: 1 }, { unit: 'px', value: 1 }, { unit: 'px', value: 2 }, { unit: 'string', value: 'silver' }],
-    marginTop: [{ unit: 'px', value: 56 }],
-    marginBottom: [{ unit: 'px', value: 79 }]
+    paddingTop: [{ unit: 'em', value: 1.75 }],
+    paddingBottom: [{ unit: 'em', value: 1.125 }],
+    boxShadow: [{ unit: 'em', value: 0.0625 }, { unit: 'em', value: 0.0625 }, { unit: 'em', value: 0.125 }, { unit: 'string', value: 'silver' }],
+    marginTop: [{ unit: 'em', value: 3.5 }],
+    marginBottom: [{ unit: 'em', value: 4.9375 }]
   },
   'stageBox h4': {
-    fontSize: [{ unit: 'px', value: 24.19 }],
+    fontSize: [{ unit: 'em', value: 1.511875 }],
     fontWeight: '200'
   },
   'stageBox p': {
-    fontSize: [{ unit: 'px', value: 19 }],
+    fontSize: [{ unit: 'em', value: 1.1875 }],
     fontWeight: '200',
-    color: '#999794'
+    color: '#999794',
+    paddingRight: [{ unit: '%H', value: 0.02 }]
   },
   'stageBox span:first-child': {
-    fontSize: [{ unit: 'px', value: 20.16 }],
+    fontSize: [{ unit: 'em', value: 1.26 }],
     fontWeight: '200',
     color: '#bababa'
   },
   'stageBox span:last-child': {
-    fontSize: [{ unit: 'px', value: 52.41 }],
+    fontSize: [{ unit: 'em', value: 3.275625 }],
     fontWeight: '200',
     color: '#035159'
   },
   stageBorder: {
-    borderRight: [{ unit: 'px', value: 3 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#bababa' }]
-  },
-  yearBox: {
-    paddingLeft: [{ unit: 'px', value: 20 }]
+    borderRight: [{ unit: 'em', value: 0.1875 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#bababa' }]
   },
   yearText: {
     paddingTop: [{ unit: '%V', value: 0.1 }],
     textAlign: 'center'
   },
   yearBoxEx: {
-    paddingRight: [{ unit: 'px', value: 20 }]
+    paddingRight: [{ unit: 'em', value: 1.25 }]
   },
   stageBoxMargin: {
-    marginTop: [{ unit: '%V', value: 0.25 }]
+    marginTop: [{ unit: 'em', value: 9 }]
   },
   borderRight: {
-    borderRight: [{ unit: 'px', value: 6 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#084141' }]
+    borderRight: [{ unit: 'em', value: 0.375 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#084141' }]
   },
   triangle: {
     width: [{ unit: 'px', value: 0 }],
     height: [{ unit: 'px', value: 0 }],
-    borderTop: [{ unit: 'px', value: 20 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
-    borderBottom: [{ unit: 'px', value: 20 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
-    borderLeft: [{ unit: 'px', value: 35 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'white' }],
-    margin: [{ unit: '%V', value: 0.21 }, { unit: 'string', value: 'auto' }, { unit: 'px', value: 0 }, { unit: 'string', value: 'auto' }]
+    borderTop: [{ unit: 'em', value: 1.25 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
+    borderBottom: [{ unit: 'em', value: 1.25 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
+    borderLeft: [{ unit: 'em', value: 2.1875 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'white' }],
+    margin: [{ unit: 'em', value: 7 }, { unit: 'string', value: 'auto' }, { unit: 'px', value: 0 }, { unit: 'string', value: 'auto' }]
   },
   triangleRight: {
     width: [{ unit: 'px', value: 0 }],
     height: [{ unit: 'px', value: 0 }],
-    borderTop: [{ unit: 'px', value: 20 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
-    borderBottom: [{ unit: 'px', value: 20 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
-    borderRight: [{ unit: 'px', value: 35 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'white' }],
-    margin: [{ unit: '%V', value: 0.46 }, { unit: 'string', value: 'auto' }, { unit: 'px', value: 0 }, { unit: 'string', value: 'auto' }]
+    borderTop: [{ unit: 'em', value: 1.25 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
+    borderBottom: [{ unit: 'em', value: 1.25 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'transparent' }],
+    borderRight: [{ unit: 'em', value: 2.1875 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: 'white' }],
+    margin: [{ unit: 'em', value: 16.5 }, { unit: 'string', value: 'auto' }, { unit: 'px', value: 0 }, { unit: 'string', value: 'auto' }]
   },
   competencesBox: {
-    marginTop: [{ unit: 'px', value: 80 }]
+    marginTop: [{ unit: 'em', value: 5 }]
   },
   competencesList: {
     marginTop: [{ unit: '%V', value: 0.09 }],
-    fontSize: [{ unit: 'px', value: 24.16 }]
+    fontSize: [{ unit: 'em', value: 1.31 }]
   },
   'competencesList p': {
     paddingBottom: [{ unit: '%V', value: 0.07 }]
@@ -281,11 +286,11 @@ export default StyleSheet.create({
     marginTop: [{ unit: '%V', value: 0.105 }]
   },
   prog: {
-    height: [{ unit: 'px', value: 13 }],
-    border: [{ unit: 'px', value: 1 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ccc' }],
+    height: [{ unit: 'em', value: 0.8125 }],
+    border: [{ unit: 'em', value: 0.0625 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#ccc' }],
     background: '#eee',
-    borderRadius: '5px',
-    marginBottom: [{ unit: '%V', value: 0.08 }]
+    borderRadius: '0.3125em',
+    marginBottom: [{ unit: 'em', value: 1.5 }]
   },
   one: {
     background: '#027070'
@@ -306,67 +311,67 @@ export default StyleSheet.create({
     background: '#008384'
   },
   progBar: {
-    borderRadius: '3px',
-    height: [{ unit: 'px', value: 11 }],
+    borderRadius: '0.1875em',
+    height: [{ unit: 'em', value: 0.6875 }],
     marginLeft: [{ unit: 'px', value: 0 }]
   },
   circlesBox: {
     display: 'flex'
   },
   sport: {
-    width: [{ unit: 'px', value: 148 }],
-    height: [{ unit: 'px', value: 148 }],
+    width: [{ unit: 'em', value: 4.7 }],
+    height: [{ unit: 'em', value: 4.7 }],
     backgroundColor: '#26acac',
     borderRadius: '50%',
     opacity: '0.8',
-    marginTop: [{ unit: 'px', value: 62 }],
+    marginTop: [{ unit: 'em', value: 1.875 }],
     marginLeft: [{ unit: '%H', value: 0.07 }],
     zIndex: '3',
     position: 'absolute',
     color: 'white',
-    fontSize: [{ unit: 'px', value: 32.21 }],
-    lineHeight: [{ unit: 'px', value: 148 }]
+    fontSize: [{ unit: 'em', value: 2.013125 }],
+    lineHeight: [{ unit: 'em', value: 4.7 }]
   },
   musique: {
-    width: [{ unit: 'px', value: 170 }],
-    height: [{ unit: 'px', value: 170 }],
+    width: [{ unit: 'em', value: 6.3 }],
+    height: [{ unit: 'em', value: 6.3 }],
     backgroundColor: '#2bc4c4',
     borderRadius: '50%',
     zIndex: '1',
     position: 'absolute',
-    marginTop: [{ unit: 'px', value: 174 }],
+    marginTop: [{ unit: 'em', value: 6.4 }],
     marginLeft: [{ unit: '%H', value: 0.03 }],
     color: 'white',
-    fontSize: [{ unit: 'px', value: 27.61 }],
-    lineHeight: [{ unit: 'px', value: 170 }]
+    fontSize: [{ unit: 'em', value: 1.725625 }],
+    lineHeight: [{ unit: 'em', value: 6.3 }]
   },
   webdesign: {
-    width: [{ unit: 'px', value: 236 }],
-    height: [{ unit: 'px', value: 236 }],
+    width: [{ unit: 'em', value: 6.4 }],
+    height: [{ unit: 'em', value: 6.4 }],
     backgroundColor: '#268e8e',
     borderRadius: '50%',
     position: 'absolute',
     zIndex: '2',
     opacity: '0.8',
-    marginTop: [{ unit: 'px', value: 97 }],
+    marginTop: [{ unit: 'em', value: 3.0625 }],
     marginLeft: [{ unit: '%H', value: 0.15 }],
     color: 'white',
-    fontSize: [{ unit: 'px', value: 36.81 }],
-    lineHeight: [{ unit: 'px', value: 236 }]
+    fontSize: [{ unit: 'em', value: 2.300625 }],
+    lineHeight: [{ unit: 'em', value: 6.4 }]
   },
   cinema: {
-    width: [{ unit: 'px', value: 144 }],
-    height: [{ unit: 'px', value: 144 }],
+    width: [{ unit: 'em', value: 5 }],
+    height: [{ unit: 'em', value: 5 }],
     backgroundColor: '#2b5d5d',
     borderRadius: '50%',
     position: 'absolute',
     zIndex: '4',
     opacity: '0.8',
-    marginTop: [{ unit: 'px', value: 241 }],
+    marginTop: [{ unit: 'em', value: 8.0625 }],
     marginLeft: [{ unit: '%H', value: 0.3 }],
     color: 'white',
-    fontSize: [{ unit: 'px', value: 29.13 }],
-    lineHeight: [{ unit: 'px', value: 144 }]
+    fontSize: [{ unit: 'em', value: 1.820625 }],
+    lineHeight: [{ unit: 'em', value: 5 }]
   },
   center: {
     textAlign: 'center'
