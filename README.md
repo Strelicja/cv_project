@@ -1,2 +1,3 @@
 # cv_project
- https://strelicja.github.io/cv_project/
+
+#### [Demo](https://strelicja.github.io/cv_project/)
