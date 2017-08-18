@@ -73,13 +73,13 @@ export default StyleSheet.create({
   },
   body: {
     fontFamily: ''Open Sans', serif',
-    fontSize: [{ unit: 'px', value: 8 }],
+    fontSize: [{ unit: 'px', value: 7 }],
     backgroundColor: '#f1efed'
   },
   container: {
     padding: [{ unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }, { unit: 'px', value: 10 }],
     width: [{ unit: '%H', value: 1 }],
-    maxWidth: [{ unit: 'px', value: 1200 }]
+    maxWidth: [{ unit: 'px', value: 1098 }]
   },
   headerBox: {
     marginTop: [{ unit: 'em', value: 3.25 }],
@@ -136,6 +136,10 @@ export default StyleSheet.create({
     marginLeft: [{ unit: 'em', value: 2.5 }],
     marginTop: [{ unit: 'em', value: 0.875 }],
     marginBottom: [{ unit: 'em', value: 3.688 }]
+  },
+  img: {
+    width: [{ unit: 'em', value: 2 }],
+    height: [{ unit: 'em', value: 2 }]
   },
   h2: {
     display: 'inline',
@@ -256,6 +260,9 @@ export default StyleSheet.create({
   borderRight: {
     borderRight: [{ unit: 'em', value: 0.375 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#084141' }]
   },
+  borderLeft: {
+    borderLeft: [{ unit: 'em', value: 0.375 }, { unit: 'string', value: 'solid' }, { unit: 'string', value: '#084141' }]
+  },
   triangle: {
     width: [{ unit: 'px', value: 0 }],
     height: [{ unit: 'px', value: 0 }],
@@ -317,6 +324,9 @@ export default StyleSheet.create({
   },
   circlesBox: {
     display: 'flex'
+  },
+  'circlesBox p': {
+    textAlign: 'center'
   },
   sport: {
     width: [{ unit: 'em', value: 4.7 }],

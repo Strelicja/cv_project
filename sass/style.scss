@@ -9,6 +9,8 @@ $gutter: 1.25em;
 		width: 100/$columnNo * $i + %;
     //border: 1px solid red;
 		font-size: 9px;
+
+
 	}
 }
 @include phone {
@@ -17,7 +19,9 @@ $gutter: 1.25em;
 			width: 100/$columnNo * $i + %;
       //border: 1px solid green;
 			font-size: 11px;
-
+			.borderLeft {
+				border-left: 0;
+			}
     }
   }
 }
@@ -32,7 +36,9 @@ $gutter: 1.25em;
 				padding-right: 3%;
 			}
 		}
-
+		.borderLeft {
+			border-left: 0;
+		}
     }
   }
 }
@@ -42,6 +48,9 @@ $gutter: 1.25em;
 			width: 100/$columnNo * $i + %;
     //  border: 1px solid yellow;
 		font-size: 16px;
+		.borderLeft {
+			border-left: 0;
+		}
     }
   }
 }
@@ -66,13 +75,13 @@ $gutter: 1.25em;
 }
 body {
 	font-family: 'Open Sans', serif;
-  font-size: 8px;
+  font-size: 7px;
 	background-color: #f1efed;
 }
 .container {
 	padding: 10px;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1098px;
 }
 // HEADER //
 .headerBox {
@@ -135,6 +144,10 @@ hr {
 }
 
 // SECTION FORMATIONS //
+img {
+	width: 2em;
+	height: 2em;
+}
 	h2 {
 		display: inline;
 		font-size: 2.77125em;
@@ -264,6 +277,9 @@ hr {
 .borderRight {
   border-right: 0.375em solid #084141;
 }
+.borderLeft {
+	border-left: 0.375em solid #084141;
+}
 .triangle {
 	width: 0;
 	height: 0;
@@ -320,14 +336,15 @@ hr {
 	background: #008384;
 }
 .progBar {
-border-radius: 0.1875em;
-
-height: 0.6875em;
-margin-left: 0;
-
+	border-radius: 0.1875em;
+	height: 0.6875em;
+	margin-left: 0;
 }
 .circlesBox {
   display: flex;
+  p {
+		text-align: center;
+	}
 }
 .sport {
   width: 4.7em;
