@@ -138,7 +138,7 @@ export default StyleSheet.create({
     marginBottom: [{ unit: 'em', value: 3.688 }]
   },
   img: {
-    width: [{ unit: 'em', value: 2 }],
+    width: [{ unit: 'em', value: 1.8 }],
     height: [{ unit: 'em', value: 2 }]
   },
   h2: {
@@ -323,7 +323,12 @@ export default StyleSheet.create({
     marginLeft: [{ unit: 'px', value: 0 }]
   },
   circlesBox: {
-    display: 'flex'
+    display: 'flex',
+    marginBottom: [{ unit: 'em', value: 2 }],
+    marginTop: [{ unit: 'em', value: 3 }]
+  },
+  'circlesBox p': {
+    float: 'left'
   },
   sport: {
     width: [{ unit: 'em', value: 4.7 }],
@@ -331,10 +336,8 @@ export default StyleSheet.create({
     backgroundColor: '#26acac',
     borderRadius: '50%',
     opacity: '0.8',
-    marginTop: [{ unit: 'em', value: 1.875 }],
-    marginLeft: [{ unit: 'em', value: 2 }],
+    marginLeft: [{ unit: 'em', value: 1.7 }],
     zIndex: '3',
-    position: 'absolute',
     color: 'white',
     fontSize: [{ unit: 'em', value: 2.013125 }],
     lineHeight: [{ unit: 'em', value: 4.7 }]
@@ -345,8 +348,8 @@ export default StyleSheet.create({
     backgroundColor: '#2bc4c4',
     borderRadius: '50%',
     zIndex: '1',
-    position: 'absolute',
-    marginTop: [{ unit: 'em', value: 6.4 }],
+    marginTop: [{ unit: 'em', value: 3.9 }],
+    marginLeft: [{ unit: 'em', value: -7.3 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 1.725625 }],
     lineHeight: [{ unit: 'em', value: 6.3 }]
@@ -356,11 +359,10 @@ export default StyleSheet.create({
     height: [{ unit: 'em', value: 6.4 }],
     backgroundColor: '#268e8e',
     borderRadius: '50%',
-    position: 'absolute',
     zIndex: '2',
     opacity: '0.8',
-    marginTop: [{ unit: 'em', value: 3.0625 }],
-    marginLeft: [{ unit: 'em', value: 3.9 }],
+    marginTop: [{ unit: 'em', value: 1 }],
+    marginLeft: [{ unit: 'em', value: -1.5 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 2.300625 }],
     lineHeight: [{ unit: 'em', value: 6.4 }]
@@ -370,13 +372,12 @@ export default StyleSheet.create({
     height: [{ unit: 'em', value: 5 }],
     backgroundColor: '#2b5d5d',
     borderRadius: '50%',
-    position: 'absolute',
     zIndex: '4',
     opacity: '0.8',
-    marginTop: [{ unit: 'em', value: 8.0625 }],
-    marginLeft: [{ unit: 'em', value: 11 }],
+    marginTop: [{ unit: 'em', value: 6 }],
+    marginLeft: [{ unit: 'em', value: -2.5 }],
     color: 'white',
-    fontSize: [{ unit: 'em', value: 1.820625 }],
+    fontSize: [{ unit: 'em', value: 1.7 }],
     lineHeight: [{ unit: 'em', value: 5 }]
   },
   center: {

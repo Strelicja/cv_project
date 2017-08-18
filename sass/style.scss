@@ -7,17 +7,13 @@ $gutter: 1.25em;
 @for $i from 1 through $columnNo {
 	.col-xsm-#{$i} {
 		width: 100/$columnNo * $i + %;
-    //border: 1px solid red;
 		font-size: 9px;
-
-
 	}
 }
 @include phone {
 	@for $i from 1 through $columnNo {
 		.col-sm-#{$i} {
 			width: 100/$columnNo * $i + %;
-      //border: 1px solid green;
 			font-size: 11px;
 			.borderLeft {
 				border-left: 0;
@@ -29,8 +25,7 @@ $gutter: 1.25em;
 	@for $i from 1 through $columnNo {
 		.col-md-#{$i} {
 			width: 100/$columnNo * $i + %;
-//    border: 1px solid blue;
-		font-size: 13px;
+			font-size: 13px;
 		.adressBox {
 			p {
 				padding-right: 3%;
@@ -46,8 +41,7 @@ $gutter: 1.25em;
 	@for $i from 1 through $columnNo {
 		.col-lg-#{$i} {
 			width: 100/$columnNo * $i + %;
-    //  border: 1px solid yellow;
-		font-size: 16px;
+			font-size: 16px;
 		.borderLeft {
 			border-left: 0;
 		}
@@ -145,7 +139,7 @@ hr {
 
 // SECTION FORMATIONS //
 img {
-	width: 2em;
+	width: 1.8em;
 	height: 2em;
 }
 	h2 {
@@ -185,7 +179,6 @@ img {
 	margin-bottom: 0.5em;
 	width: 86%;
 }
-
 .borderLine  {
 	p {
 		margin: 0;
@@ -228,7 +221,6 @@ img {
 .experienceBox {
 	margin-top: 8%;
 }
-
 .stageBox {
   border-radius: 0.625em;
   background-color: white;
@@ -341,8 +333,12 @@ img {
 	margin-left: 0;
 }
 .circlesBox {
-  display: flex;
-
+	display: flex;
+  margin-bottom: 2em;
+	margin-top: 3em;
+	p {
+		float: left;
+	}
 }
 .sport {
   width: 4.7em;
@@ -350,10 +346,8 @@ img {
   background-color: #26acac;
   border-radius: 50%;
 	opacity: 0.8;
-	margin-top: 1.875em;
-	margin-left: 2em;
+	margin-left: 1.7em;
 	z-index: 3;
-	position: absolute;
 	color: white;
 	font-size: 2.013125em;
 	line-height: 4.7em;
@@ -364,9 +358,8 @@ img {
   background-color: #2bc4c4;
   border-radius: 50%;
 	z-index: 1;
-	position: absolute;
-	margin-top: 6.4em;
-	//margin-left: 1em;
+	margin-top: 3.9em;
+	margin-left: -7.3em;
 	color: white;
 	font-size: 1.725625em;
 	line-height: 6.3em;
@@ -376,11 +369,10 @@ img {
   height: 6.4em;
   background-color: #268e8e;
   border-radius: 50%;
-	position: absolute;
 	z-index: 2;
 	opacity: 0.8;
-	margin-top: 3.0625em;
-	margin-left: 3.9em;
+	margin-top: 1em;
+	margin-left:-1.5em;
 	color: white;
 	font-size: 2.300625em;
 	line-height: 6.4em;
@@ -390,14 +382,14 @@ img {
   height: 5em;
   background-color: #2b5d5d;
   border-radius: 50%;
-	position: absolute;
 	z-index: 4;
 	opacity: 0.8;
-	margin-top: 8.0625em;
-	margin-left: 11em;
+	margin-top: 6em;
+	margin-left: -2.5em;
 	color: white;
-	font-size: 1.820625em;
+	font-size: 1.7em;
 	line-height: 5em;
+
 }
 .center {
   text-align: center;
