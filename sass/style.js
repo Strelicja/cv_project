@@ -325,9 +325,6 @@ export default StyleSheet.create({
   circlesBox: {
     display: 'flex'
   },
-  'circlesBox p': {
-    textAlign: 'center'
-  },
   sport: {
     width: [{ unit: 'em', value: 4.7 }],
     height: [{ unit: 'em', value: 4.7 }],
@@ -335,7 +332,7 @@ export default StyleSheet.create({
     borderRadius: '50%',
     opacity: '0.8',
     marginTop: [{ unit: 'em', value: 1.875 }],
-    marginLeft: [{ unit: '%H', value: 0.07 }],
+    marginLeft: [{ unit: 'em', value: 2 }],
     zIndex: '3',
     position: 'absolute',
     color: 'white',
@@ -350,7 +347,6 @@ export default StyleSheet.create({
     zIndex: '1',
     position: 'absolute',
     marginTop: [{ unit: 'em', value: 6.4 }],
-    marginLeft: [{ unit: '%H', value: 0.03 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 1.725625 }],
     lineHeight: [{ unit: 'em', value: 6.3 }]
@@ -364,7 +360,7 @@ export default StyleSheet.create({
     zIndex: '2',
     opacity: '0.8',
     marginTop: [{ unit: 'em', value: 3.0625 }],
-    marginLeft: [{ unit: '%H', value: 0.15 }],
+    marginLeft: [{ unit: 'em', value: 3.9 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 2.300625 }],
     lineHeight: [{ unit: 'em', value: 6.4 }]
@@ -378,7 +374,7 @@ export default StyleSheet.create({
     zIndex: '4',
     opacity: '0.8',
     marginTop: [{ unit: 'em', value: 8.0625 }],
-    marginLeft: [{ unit: '%H', value: 0.3 }],
+    marginLeft: [{ unit: 'em', value: 11 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 1.820625 }],
     lineHeight: [{ unit: 'em', value: 5 }]

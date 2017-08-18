@@ -517,8 +517,6 @@ h2 {
 
 .circlesBox {
   display: flex; }
-  .circlesBox p {
-    text-align: center; }
 
 .sport {
   width: 4.7em;
@@ -527,7 +525,7 @@ h2 {
   border-radius: 50%;
   opacity: 0.8;
   margin-top: 1.875em;
-  margin-left: 7%;
+  margin-left: 2em;
   z-index: 3;
   position: absolute;
   color: white;
@@ -542,7 +540,6 @@ h2 {
   z-index: 1;
   position: absolute;
   margin-top: 6.4em;
-  margin-left: 3%;
   color: white;
   font-size: 1.725625em;
   line-height: 6.3em; }
@@ -556,7 +553,7 @@ h2 {
   z-index: 2;
   opacity: 0.8;
   margin-top: 3.0625em;
-  margin-left: 15%;
+  margin-left: 3.9em;
   color: white;
   font-size: 2.300625em;
   line-height: 6.4em; }
@@ -570,7 +567,7 @@ h2 {
   z-index: 4;
   opacity: 0.8;
   margin-top: 8.0625em;
-  margin-left: 30%;
+  margin-left: 11em;
   color: white;
   font-size: 1.820625em;
   line-height: 5em; }
