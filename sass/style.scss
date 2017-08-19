@@ -142,6 +142,15 @@ img {
 	width: 1.8em;
 	height: 2em;
 }
+.heart {
+	animation:heartAnim 2s linear infinite;
+}
+
+@keyframes heartAnim{
+ 0% { transform:perspective(1.7em) translateZ(0); }
+ 100% { transform:perspective(0) translateZ(2em); }
+}
+
 	h2 {
 		display: inline;
 		font-size: 2.77125em;
@@ -309,6 +318,19 @@ img {
 	border-radius: 0.3125em;
 	margin-bottom: 1.5em;
 }
+
+@keyframes widthCompetList{
+    0% { width:0; }
+ }
+@-webkit-keyframes widthCompetList{
+    0% { width:0px; }
+  }
+.one, .two, .three, .four, .five, .six {
+	animation-name:widthCompetList;
+  animation-duration:5s;
+  -webkit-animation-name:widthCompetList;
+  -webkit-animation-duration:5s;
+}
 .one {
 	background: #027070;
 }
@@ -346,12 +368,40 @@ img {
   background-color: #26acac;
   border-radius: 50%;
 	opacity: 0.8;
-	margin-left: 1.7em;
+	margin-left: 2.4em;
 	z-index: 3;
 	color: white;
 	font-size: 2.013125em;
 	line-height: 4.7em;
+	-webkit-animation-duration: 4s;
+  animation-duration:4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+
+@-webkit-keyframes bounceIn {
+    0% {
+       opacity: 0;
+    	 -webkit-transform: scale(.3);
+        }
+    100% {
+  	   -webkit-transform: scale(1);
+    	  }
+   }
+@keyframes bounceIn {
+	0% {
+		 opacity: 0;
+		 transform: scale(.3);
+	}
+	100% {
+		 transform: scale(1);
+	}
 }
+.bounceIn {
+	-webkit-animation-name: bounceIn;
+	animation-name: bounceIn;
+}
+
 .musique {
   width: 6.3em;
   height: 6.3em;
@@ -363,6 +413,10 @@ img {
 	color: white;
 	font-size: 1.725625em;
 	line-height: 6.3em;
+	-webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .webdesign {
   width: 6.4em;
@@ -376,6 +430,10 @@ img {
 	color: white;
 	font-size: 2.300625em;
 	line-height: 6.4em;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 .cinema {
   width: 5em;
@@ -389,7 +447,10 @@ img {
 	color: white;
 	font-size: 1.7em;
 	line-height: 5em;
-
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 .center {
   text-align: center;

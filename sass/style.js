@@ -141,6 +141,9 @@ export default StyleSheet.create({
     width: [{ unit: 'em', value: 1.8 }],
     height: [{ unit: 'em', value: 2 }]
   },
+  heart: {
+    animation: 'heartAnim 2s linear infinite'
+  },
   h2: {
     display: 'inline',
     fontSize: [{ unit: 'em', value: 2.77125 }],
@@ -300,6 +303,42 @@ export default StyleSheet.create({
     marginBottom: [{ unit: 'em', value: 1.5 }]
   },
   one: {
+    animationName: 'widthCompetList',
+    animationDuration: '5s',
+    WebkitAnimationName: 'widthCompetList',
+    WebkitAnimationDuration: '5s'
+  },
+  two: {
+    animationName: 'widthCompetList',
+    animationDuration: '5s',
+    WebkitAnimationName: 'widthCompetList',
+    WebkitAnimationDuration: '5s'
+  },
+  three: {
+    animationName: 'widthCompetList',
+    animationDuration: '5s',
+    WebkitAnimationName: 'widthCompetList',
+    WebkitAnimationDuration: '5s'
+  },
+  four: {
+    animationName: 'widthCompetList',
+    animationDuration: '5s',
+    WebkitAnimationName: 'widthCompetList',
+    WebkitAnimationDuration: '5s'
+  },
+  five: {
+    animationName: 'widthCompetList',
+    animationDuration: '5s',
+    WebkitAnimationName: 'widthCompetList',
+    WebkitAnimationDuration: '5s'
+  },
+  six: {
+    animationName: 'widthCompetList',
+    animationDuration: '5s',
+    WebkitAnimationName: 'widthCompetList',
+    WebkitAnimationDuration: '5s'
+  },
+  one: {
     background: '#027070'
   },
   two: {
@@ -336,11 +375,19 @@ export default StyleSheet.create({
     backgroundColor: '#26acac',
     borderRadius: '50%',
     opacity: '0.8',
-    marginLeft: [{ unit: 'em', value: 1.7 }],
+    marginLeft: [{ unit: 'em', value: 2.4 }],
     zIndex: '3',
     color: 'white',
     fontSize: [{ unit: 'em', value: 2.013125 }],
-    lineHeight: [{ unit: 'em', value: 4.7 }]
+    lineHeight: [{ unit: 'em', value: 4.7 }],
+    WebkitAnimationDuration: '4s',
+    animationDuration: '4s',
+    WebkitAnimationFillMode: 'both',
+    animationFillMode: 'both'
+  },
+  bounceIn: {
+    WebkitAnimationName: 'bounceIn',
+    animationName: 'bounceIn'
   },
   musique: {
     width: [{ unit: 'em', value: 6.3 }],
@@ -352,7 +399,11 @@ export default StyleSheet.create({
     marginLeft: [{ unit: 'em', value: -7.3 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 1.725625 }],
-    lineHeight: [{ unit: 'em', value: 6.3 }]
+    lineHeight: [{ unit: 'em', value: 6.3 }],
+    WebkitAnimationDuration: '3s',
+    animationDuration: '3s',
+    WebkitAnimationFillMode: 'both',
+    animationFillMode: 'both'
   },
   webdesign: {
     width: [{ unit: 'em', value: 6.4 }],
@@ -365,7 +416,11 @@ export default StyleSheet.create({
     marginLeft: [{ unit: 'em', value: -1.5 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 2.300625 }],
-    lineHeight: [{ unit: 'em', value: 6.4 }]
+    lineHeight: [{ unit: 'em', value: 6.4 }],
+    WebkitAnimationDuration: '1s',
+    animationDuration: '1s',
+    WebkitAnimationFillMode: 'both',
+    animationFillMode: 'both'
   },
   cinema: {
     width: [{ unit: 'em', value: 5 }],
@@ -378,7 +433,11 @@ export default StyleSheet.create({
     marginLeft: [{ unit: 'em', value: -2.5 }],
     color: 'white',
     fontSize: [{ unit: 'em', value: 1.7 }],
-    lineHeight: [{ unit: 'em', value: 5 }]
+    lineHeight: [{ unit: 'em', value: 5 }],
+    WebkitAnimationDuration: '2s',
+    animationDuration: '2s',
+    WebkitAnimationFillMode: 'both',
+    animationFillMode: 'both'
   },
   center: {
     textAlign: 'center'
