@@ -453,6 +453,8 @@ h2 {
 .yearText {
   padding-top: 10%;
   text-align: center; }
+  .yearText span {
+    display: block; }
 
 .yearBoxEx {
   padding-right: 1.25em; }
